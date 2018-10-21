@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title> shinging </title>
+	<style>
+
+		/* page*/
+		#lobby{ width:105%; height:105%;  position:absolute; left:-10px; 
+			top:-10px; z-index:-7; filter:blur(5px);}
+
+		#ntext{position: absolute; top:100px; margin-left:430px; font-size: 10px; 
+			   font-weight: bold; letter-spacing: 10px; z-index:-3;}
+
+		.tx{ position: absolute; top:450px; margin-left:437px;  color:black; 
+			font-weight: bold; animation: drop 10s infinite;  opacity:0; font-size: 10px;
+		    transition: all 0.2s; }
+				@keyframes drop {
+				0%{ opacity:0;}
+				10%{opacity:1;}
+				}
+
+		#bac{ position: absolute; top:-100px; left:350px; width:800px; height:850px; z-index:-4;}
+		#taz{ position: absolute; top:450px; left:-30px; width:1600px; height:300px; z-index:-6;
+			z-index:-3;}
+		#key1{position: absolute; top:650px; left:200px; z-index:-3; 
+		     animation: a 1s infinite;}
+		     @keyframes a {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key2{position: absolute; top:650px; left:300px; z-index:-3;
+			animation: aa 1s infinite;}
+			 @keyframes aa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key3{position: absolute; top:650px; left:400px; z-index:-3;
+			animation: aaa 2.9s infinite;}
+			 @keyframes aaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key4{position: absolute; top:650px; left:500px; z-index:-3;
+			animation: aaaa 0.5s infinite;}
+			 @keyframes aaaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key5{position: absolute; top:650px; left:600px; z-index:-3;
+			animation: aaaaa 2.2s infinite;}
+			 @keyframes aaaaa {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key6{position: absolute; top:650px; left:700px; z-index:-3;
+			animation: b 4s infinite;}
+			 @keyframes b {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key7{position: absolute; top:650px; left:800px; z-index:-3;
+			animation: bb 2s infinite;}
+			 @keyframes bb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key8{position: absolute; top:650px; left:900px; z-index:-3;
+			animation: bbb 1.3s infinite;}
+			 @keyframes bbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key9{position: absolute; top:650px; left:1000px; z-index:-3;
+			animation: bbbb 1.8s infinite;}
+			 @keyframes bbbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key10{position: absolute; top:650px; left:1100px; z-index:-3;
+			animation: bbbbb 1.1s infinite;}
+			 @keyframes bbbbb {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		#key11{position: absolute; top:650px; left:1200px; z-index:-3;
+			animation: c 2.6s infinite;}
+ 				@keyframes c {
+				from{ margin-top:0;}
+				to{margin-top:50px;}
+				}
+		/* page*/
+
+		/* sq1*/
+		#wallpaper{width:0%; height:0%; background-color: black; position:absolute; left:-10px; 
+			top:-10px; z-index:-1; }
+		#car{width:0px; height:0px;  position:absolute; top:600px; left:650px;
+		 animation:car 5s infinite; z-index:2;}
+ 		@keyframes car {
+		0%{ position:absolute;  left:650px;}
+		50%{position:absolute;  left:750px;}
+		100%{position:absolute;  left:650px;}
+		}
+
+		#redsky{width:0%; height:0px;  position:absolute; top:0px; left:0px;
+		 z-index:0; opacity:0.2; filter:blur(2px);}
+
+		#san{width:0px; height:0px;  position:absolute; top:-30px; left:300px;
+		 animation:san 30s infinite ; z-index:1; opacity:0.8;  filter:blur(1.5px);}
+ 		@keyframes san {
+		0%{ position:absolute;  left:300px;}
+		100%{position:absolute;  left:0px;}
+		}
+		#san2{width:0px; height:0px;  position:absolute; top:200px; left:600px;
+		 animation:sann 30s infinite; z-index:1; opacity:0.5; filter:blur(3px);}
+ 		@keyframes sann {
+		0%{ position:absolute;  left:600px;}
+		100%{position:absolute;  left:800px;}
+		}
+		#san3{width:0px; height:0px;  position:absolute; top:250px; left:0px;
+		 z-index:1; opacity:0.2; filter:blur(10px);}
+
+		
+
+		#sonamu{width:0px; height:0px;  position:absolute; top:500px; left:900px;
+		 animation:sonamu 1s infinite; z-index:1; animation-play-state: paused;}
+ 		@keyframes sonamu {
+		0%{  position:absolute; top:500px; left:900px;}
+		100%{ width:200px; height:200px; position:absolute; top:600px; left:1000px; opacity:0;}
+		}
+		#sonamu2{width:0px; height:0px;  position:absolute; top:500px; left:450px;
+		 animation:sonamuu 1s infinite; z-index:1; animation-play-state:  paused;}
+ 		@keyframes sonamuu {
+		0%{  position:absolute; top:500px; left:450px;}
+		100%{ width:200px; height:200px; position:absolute; top:600px; left:250px; opacity:0;}
+		}
+		#sonamu3{width:0px; height:0px;  position:absolute; top:500px; left:450px;
+		 animation:sonamuuu 1.5s infinite; z-index:1; animation-play-state:  paused;}
+ 		@keyframes sonamuuu {
+		0%{  position:absolute; top:500px; left:450px;}
+		100%{ width:200px; height:200px; position:absolute; top:600px; left:250px; opacity:0;}
+		}
+		#sonamu4{width:0px; height:0px;  position:absolute; top:500px; left:900px;
+		 animation:sonamuuuu 1.5s infinite; z-index:1; animation-play-state:  paused;}
+ 		@keyframes sonamuuuu {
+		0%{  position:absolute; top:500px; left:900px;}
+		100%{ width:200px; height:200px; position:absolute; top:600px; left:1000px; opacity:0;}
+
+		}
+		/*sq1 done*/
+		
+		/* sq2*/
+			#wallpaper2{width:0%; height:0%; background-color:red; position:absolute; left:-10px; 
+			top:-10px; z-index:3;  }
+	#hea{width:0px;height:0px; background-color: black; border-radius: 100px; position:absolute;
+	 left:1000px; top:450px; z-index:4; }
+	#bod{width:0px;height:0px; transform:rotate(-20deg);background-color: black;  position:absolute;
+	 left:1020px; top:500px; z-index:4; }
+	#leftarm{width:0px;height:0px; background-color: black;  position:absolute;
+	 left:950px; top:450px;  animation:lef 3s infinite;  z-index:4;}
+	 @keyframes lef  {
+		0%{ position:absolute;  left:950px; transform:rotate(-20deg);}
+		20%{position:absolute;  left:950px; top:500px; transform:rotate(-150deg);}
+
+		100%{position:absolute;  left:950px; transform:rotate(-20deg);}
+		}
+	#rightarm{width:0px;height:0px; background-color: black;  position:absolute;
+	 left:1070px; top:500px; z-index:4;}
+	#leftleg{width:0px;height:0px; transform:rotate(-20deg); background-color: black;  position:absolute;
+	 left:1080px; top:600px; z-index:4;}
+	#rightleg{width:0px;height:0px; transform:rotate(20deg); background-color: black;  position:absolute;
+	 left:1000px; top:580px; z-index:4;}
+	 #ball{width:0px;height:0px; background-color: black; border-radius: 100px;  position:absolute;
+	 left:920px; top:450px; animation:bal 3s infinite; z-index:4;}
+	 @keyframes bal  {
+		0%{ position:absolute;  left:920px; top:450px;}
+		15%{ position:absolute;  left:100px; top:400px;}
+		17%{ position:absolute;  left:150px; top:420px;}
+		45%{ position:absolute;  left:500px; top:650px;}
+		70%{ position:absolute;  left:920px; top:450px;}
+		}
+		#twins{width:0px;height:0px;    position:absolute;
+	 left:650px; top:400px; opacity:1;  animation:twin 2s infinite; z-index:4;}
+	  @keyframes twin  {
+		0%{ position:absolute; opacity:0; }
+		5%{ position:absolute;  opacity:0;}
+		10%{ position:absolute;  opacity:1;}
+		25%{ position:absolute;  opacity:0;}
+		40%{ position:absolute;  opacity:1;}
+		45%{ position:absolute;  opacity:0.5;}
+		60%{ position:absolute;  opacity:1;}
+		70%{ position:absolute;  opacity:0;}
+		80%{ position:absolute;   opacity:1;}
+		}
+		/* sq2 done*/
+
+		/* sq3*/
+		#wallpaper3{width:0%; height:0%; background-color: red; position:absolute; left:-10px; 
+			top:-10px; z-index:5;}
+			#wei{width:0px; height:0px;  position:absolute; top:350px; left:10px;
+		   animation:dothejob 40s infinite; z-index:6;}
+		  @keyframes dothejob {
+		from{margin-left:0;}
+		to{margin-left:1300px;}
+		}
+			#dc{width:0px; height:0px;  position:absolute; top:350px; left:350px; filter:blur(1.5px);
+		  animation:dance 6s infinite; z-index:5;}
+ 		@keyframes dance {
+		0%{margin-left:0;}
+		50%{margin-left:30px;}
+		100%{margin-left:0;}
+		}
+			#dcc{width:0px; height:0px;  position:absolute; top:350px; left:550px; filter:blur(1.5px);
+		  animation:dancee 7s infinite; z-index:5;}
+		  @keyframes dancee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc1{width:0px; height:0px;  position:absolute; top:350px; left:750px; filter:blur(1.5px);
+		  animation:danceee 4s infinite; z-index:5;}
+		  @keyframes danceee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc2{width:0px; height:0px;  position:absolute; top:350px; left:950px; filter:blur(1.5px);
+		  animation:danceeee 7s infinite; z-index:5;}
+		  @keyframes danceeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc3{width:0px; height:0px;  position:absolute; top:350px; left:150px; filter:blur(1.5px);
+		  animation:danceeeee 8s infinite; z-index:5;}
+		  @keyframes danceeeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc4{width:0px; height:0px;  position:absolute; top:350px; left:550px; filter:blur(1.5px);
+		  animation:danceeeeee 7s infinite; z-index:5;}
+		  @keyframes danceeeeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc5{width:0px; height:0px;  position:absolute; top:350px; left:50px; filter:blur(1.5px);
+		  animation:danceeeeeee 7s infinite; z-index:5;}
+		  @keyframes danceeeeeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc6{width:0px; height:0px;  position:absolute; top:350px; left:650px; filter:blur(1.5px);
+		  animation:danceeeeeeee 7s infinite; z-index:5;}
+		  @keyframes danceeeeeeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+
+		#dcc7{width:0px; height:0px;  position:absolute; top:350px; left:1200px; filter:blur(1.5px);
+		  animation:danceeeeeeeee 7s infinite; z-index:5;}
+		  @keyframes danceeeeeeeee {
+		0%{margin-left:0;}
+		50%{margin-left:-30px;}
+		100%{margin-left:0;}
+		}
+		/* sq3 done*/
+
+		/* sq4*/
+		#twinss{width:0px;height:0px;    position:absolute;
+	 left:550px; top:200px; opacity:1;  animation:twinnnn 2s infinite; z-index:8;}
+	 @keyframes twinnnn  {
+		0%{ position:absolute; opacity:0; }
+		5%{ position:absolute;  opacity:0;}
+		10%{ position:absolute;  opacity:1;}
+		25%{ position:absolute;  opacity:0;}
+		40%{ position:absolute;  opacity:1;}
+		45%{ position:absolute;  opacity:0.5;}
+		60%{ position:absolute;  opacity:1;}
+		70%{ position:absolute;  opacity:0;}
+		80%{ position:absolute;   opacity:1;}
+		}
+#bld {width:0%; height:0%;  position:absolute; left:-10px; 
+			top:-10px; z-index:7;}
+
+			#redrum{width:0px; height:0px; opacity:1; animation:redru 2s infinite; position:absolute; left:100px; top:100px; z-index:15;}
+@keyframes redru {
+		0%{ position:absolute; opacity:0; }
+		5%{ position:absolute;  opacity:0;}
+		10%{ position:absolute;  opacity:1;}
+		25%{ position:absolute;  opacity:0;}
+		40%{ position:absolute;  opacity:1;}
+		45%{ position:absolute;  opacity:0.5;}
+		60%{ position:absolute;  opacity:1;}
+		70%{ position:absolute;  opacity:0;}
+		80%{ position:absolute;   opacity:1;}
+		}
+
+	#redrumm{width:0px; height:0px; opacity:1; animation:redruu 2s infinite; position:absolute; left:800px; top:500px; z-index:15;}
+@keyframes redruu {
+		0%{ position:absolute; opacity:1; }
+		5%{ position:absolute;  opacity:0.5;}
+		10%{ position:absolute;  opacity:1;}
+		25%{ position:absolute;  opacity:0;}
+		40%{ position:absolute;  opacity:0;}
+		45%{ position:absolute;  opacity:0.5;}
+		60%{ position:absolute;  opacity:0;}
+		70%{ position:absolute;  opacity:1;}
+		80%{ position:absolute;   opacity:0.5;}
+		}
+
+		#redrummm{width:0px; height:0px; opacity:1; animation:redruuu 2s infinite; position:absolute; left:1000px; top:100px; z-index:15;}
+@keyframes redruuu {
+		0%{ position:absolute; opacity:0; }
+		5%{ position:absolute;  opacity:0.5;}
+		10%{ position:absolute;  opacity:1;}
+		25%{ position:absolute;  opacity:1;}
+		40%{ position:absolute;  opacity:1;}
+		45%{ position:absolute;  opacity:0;}
+		60%{ position:absolute;  opacity:1;}
+		70%{ position:absolute;  opacity:0.5;}
+		80%{ position:absolute;   opacity:1;}
+		}
+		/* sq4 done*/
+
+		/* sq5*/
+
+		#mm{width:0%; height:0%;  position:absolute; left:-10px; top:-10px; z-index:14;
+			opacity:0.5;}
+
+
+		#circle{width:0px; height:0px; background:white; position:absolute; border-radius: 50%;
+		 animation:dropppppp 10s infinite; z-index:13;	}
+		@keyframes dropppppp{
+			from{margin-top:0;}
+			to{margin-top:200px;}
+		}
+		#wallpaper5{width:0%; height:0%; background-color: black; position:absolute; left:-10px; 
+			top:-10px; z-index:10; }
+			#walk{width:0px; height:0px;  position:absolute; top:0px; left:500px; z-index:12;}
+			#ex{width:0px; height:0px ; position:absolute; top:300px; left:350px; 
+				transform: rotate(-80deg); animation:ex 1.5s infinite; z-index:12;}
+			@keyframes ex {
+		0%{ margin-top:0; }
+		50%{margin-top:20px; }
+		100%{margin-top:0; }
+		/* sq5 done*/
+
+		/* sq6*/
+		/* sq6 done*/
+	</style>
+
+</head>
+
+<body>
+	<!-- pg -->
+	
+<audio id="sn">
+  <source src="shinbgm.mp3" type="audio/mpeg"></audio>
+
+  	<audio id="boom">
+  <source src="Boom.mp3" type="audio/mpeg"></audio>
+
+<div id=bacc></div>
+<div id = "textt"></div>
+<div id = "txCon"></div>
+<div id= ntext>All works and no play makes jack a dull boy</div>
+
+<div id= "all">
+<div id = "redtex"></div>
+<div id = "redCon"></div>
+</div>
+<img id= lobby src = "lobby.jpg">
+<img id= bac src = "paper.jpg">
+<img id= taz src = "taza.png">
+<img id= key1 src = "k1.png">
+<img id= key2 src = "k2.png">
+<img id= key3 src = "k3.png">
+<img id= key4 src = "k4.png">
+<img id= key5 src = "k5.png">
+<img id= key6 src = "k6.png">
+<img id= key7 src = "k7.png">
+<img id= key8 src = "k8.png">
+<img id= key9 src = "k9.png">
+<img id= key10 src = "k10.png">
+<img id= key11 src = "k11.png">
+
+
+<!-- pg done-->
+	<!-- sq 1-->
+<div id= wallpaper></div>
+<img id =car src = "car.png">
+<img id =san src = "san.png">
+<img id =san2 src = "san2.png">
+<img id =san3 src = "san2.png">
+<img id =sonamu src = "sonamu.png">
+<img id =sonamu2 src = "sonamu.png">
+<img id =sonamu3 src = "sonamu.png">
+<img id =sonamu4 src = "sonamu.png">
+<img id =redsky src = "redsky.gif">
+	<!-- sq 1 done-->
+
+		<!-- sq 2-->
+<div id= wallpaper2></div>
+<div id= hea></div>
+<div id= bod></div>
+<div id= leftarm></div>
+<div id= rightarm></div>
+<div id= leftleg></div>
+<div id= rightleg></div>
+<div id= ball></div>
+<img id =twins src = "twins.png">
+	<!-- sq 2 done-->
+
+<!-- sq 3-->
+<div id= wallpaper3></div>
+<img id = wei src= "웨이터2.png">
+<img id= dc src= "dance1.png">
+<img id= dcc src= "dance2.png">
+<img id= dcc1 src= "dance1.png">
+<img id= dcc2 src= "dance2.png">
+<img id= dcc3 src= "dance1.png">
+<img id= dcc4 src= "dance2.png">
+<img id= dcc5 src= "dance2.png">
+<img id= dcc6 src= "dance1.png">
+<img id= dcc7 src= "dance2.png">
+<!-- sq 3 done-->
+<!-- sq 4-->
+<img id= twinss src="twins.png">
+<img id= bld src="bld.gif">
+<img id= redrum src="redrumsmall.png">
+<img id= redrumm src="redrumsmall.png">
+<img id= redrummm src="redrumsmall.png">
+<!-- sq 4 done-->
+<!-- sq 5-->
+<div id= circle ></div>
+<div id= wallpaper5 ></div>
+<img id= walk src=walkingr.gif>
+<img id= ex  src=ex.png>
+
+<img id= mm  src=murder2.gif>
+
+<audio id="jon">
+ <source src="jon2.mp3" type="audio/mpeg"></audio>
+<!-- sq 5 done-->
+<script>
+
+//page source//
+var r = document.getElementsByClassName("red1");
+	/*타자기*/
+	var text1 = "All works and no play makes jack a dull boy";
+	var kk = text1
+	for(var ii=0; ii<kk.length; ii++){
+		var cc = document.getElementById("textt");
+		var dd = cc.cloneNode(true);
+		dd.className = "tx";
+		dd.innerHTML = kk[ii];
+		dd.style.left = 15*ii +"px";
+		dd.style.animationDelay=ii*0.2+"s";
+		txCon.appendChild(dd);
+	}
+	/*타자기*/
+	/*문장*/
+	for(var ii=0;ii<9;ii++){
+	var tt = document.getElementById("ntext");
+	var kk = tt.cloneNode(true);
+	kk.style.top = ii*50 +"px"
+	document.body.appendChild(kk);
+	}
+	/*문장*/
+bac.onclick=function(){
+			
+			  sn.play();
+			boom.play();
+			boom.currentTime=0;
+
+			var ttt = document.getElementsByClassName("tx");
+			for(var iii=0; iii<ttt.length; iii++){
+				ttt[iii].style.animationPlayState = "paused";
+				ttt[iii].style.zIndex = -15;}
+
+				key1.style.animationPlayState="paused"
+				key2.style.animationPlayState="paused"
+				key3.style.animationPlayState="paused"
+				key4.style.animationPlayState="paused"
+				key5.style.animationPlayState="paused"
+				key6.style.animationPlayState="paused"
+				key7.style.animationPlayState="paused"
+				key8.style.animationPlayState="paused"
+				key9.style.animationPlayState="paused"
+				key10.style.animationPlayState="paused"
+				key11.style.animationPlayState="paused"
+
+
+				sonamu.style.animationPlayState="running"
+				sonamu2.style.animationPlayState="running"
+				sonamu3.style.animationPlayState="running"
+				sonamu4.style.animationPlayState="running"
+
+			
+
+				lobby.style.width="0px"
+            wallpaper.style.width="105%"
+            wallpaper.style.height="105%"
+            car.style.width="100px"
+            car.style.height="100px"
+            redsky.style.width="105%"
+            redsky.style.height="300px"
+            san.style.width="800px"
+            san.style.height="800px"
+            san2.style.width="600px"
+            san2.style.height="400px"
+            san3.style.width="300px"
+            san3.style.height="300px"
+            sonamu.style.width="200px"
+            sonamu.style.height="200px"
+            sonamu2.style.width="200px"
+            sonamu2.style.height="200px"
+            sonamu3.style.width="200px"
+            sonamu3.style.height="200px"
+            sonamu4.style.width="200px"
+            sonamu4.style.height="200px"
+          
+			}
+
+			taz.onclick=function(){
+
+ 			 sn.play();
+			boom.play();
+			boom.currentTime=0;
+
+			var ttt = document.getElementsByClassName("tx");
+			for(var iii=0; iii<ttt.length; iii++){
+				ttt[iii].style.animationPlayState = "paused";
+				ttt[iii].style.zIndex = -15;}
+
+				key1.style.animationPlayState="paused"
+				key2.style.animationPlayState="paused"
+				key3.style.animationPlayState="paused"
+				key4.style.animationPlayState="paused"
+				key5.style.animationPlayState="paused"
+				key6.style.animationPlayState="paused"
+				key7.style.animationPlayState="paused"
+				key8.style.animationPlayState="paused"
+				key9.style.animationPlayState="paused"
+				key10.style.animationPlayState="paused"
+				key11.style.animationPlayState="paused"
+
+				sonamu.style.animationPlayState="running"
+				sonamu2.style.animationPlayState="running"
+				sonamu3.style.animationPlayState="running"
+				sonamu4.style.animationPlayState="running"
+
+				
+				lobby.style.width="0px"
+				 wallpaper.style.width="105%"
+            wallpaper.style.height="105%"
+            car.style.width="100px"
+            car.style.height="100px"
+            redsky.style.width="105%"
+            redsky.style.height="300px"
+            san.style.width="800px"
+            san.style.height="800px"
+            san2.style.width="600px"
+            san2.style.height="400px"
+            san3.style.width="300px"
+            san3.style.height="300px"
+            sonamu.style.width="200px"
+            sonamu.style.height="200px"
+            sonamu2.style.width="200px"
+            sonamu2.style.height="200px"
+            sonamu3.style.width="200px"
+            sonamu3.style.height="200px"
+            sonamu4.style.width="200px"
+            sonamu4.style.height="200px"
+			
+}
+//page source done//
+
+//sq1 source//
+	car.onclick=function(){
+
+		wallpaper.style.width="0px";
+		redsky.style.width="0px"
+		sonamu.style.animationPlayState="paused"
+			sonamu2.style.animationPlayState="paused"
+			sonamu3.style.animationPlayState="paused"
+			sonamu4.style.animationPlayState="paused"
+			boom.play();
+			boom.currentTime=0;
+			car.style.width="0px"
+			san.style.width="0px"
+			san2.style.width="0px"
+			sonamu.style.width="0px"
+			sonamu2.style.width="0px"
+			sonamu3.style.width="0px"
+			sonamu4.style.width="0px"
+
+			//sq2//		
+			wallpaper2.style.width="105%";
+			wallpaper2.style.height="105%";
+			ball.style.animationPlayState="running"
+			leftarm.style.animationPlayState="running"
+			boom.play();
+			boom.currentTime=0;
+			hea.style.width="30px"
+			hea.style.height="30px"
+			bod.style.width="30px"
+			bod.style.height="60px"
+			leftarm.style.width="10px"
+			leftarm.style.height="60px"
+			rightarm.style.width="10px"
+			rightarm.style.height="60px"
+			leftleg.style.width="10px"
+			leftleg.style.height="70px"
+			rightleg.style.width="10px"
+			rightleg.style.height="70px"
+			ball.style.width="10px"
+			ball.style.height="10px"
+
+			}
+
+		for(var i=0;i<5;i++){
+	var t = document.getElementById("san3");
+	var k = t.cloneNode(true);
+	k.style.left = i*280 +"px"
+	document.body.appendChild(k);}
+//sq1 source done//
+
+//sq2 source//
+	bod.onclick=function(){
+		boom.play();
+		boom.currentTime=0;
+		wallpaper2.style.backgroundColor="black";
+			hea.style.backgroundColor="red"
+			bod.style.backgroundColor="red"
+			leftarm.style.backgroundColor="red"
+			rightarm.style.backgroundColor="red"
+			leftleg.style.backgroundColor="red"
+			rightleg.style.backgroundColor="red"
+			ball.style.backgroundColor="red"
+			twins.style.width="160px"
+			twins.style.height="220px"
+
+			}
+	twins.onclick=function(){
+		wallpaper2.style.width="0px";
+			ball.style.animationPlayState="paused"
+			leftarm.style.animationPlayState="paused"
+			twins.style.animationPlayState="paused"
+			boom.play();
+			boom.currentTime=0;
+			hea.style.width="0px"
+			bod.style.width="0px"
+			leftarm.style.width="0px"
+			rightarm.style.width="0px"
+			leftleg.style.width="0px"
+			rightleg.style.width="0px"
+			ball.style.width="0px"	
+			twins.style.width="0px"
+		wallpaper3.style.width="105%"
+		wallpaper3.style.height="105%"
+		wei.style.width="200px"
+		wei.style.height="400px"
+		dc.style.width="200px"
+		dc.style.height="400px"
+		dcc.style.width="200px"
+		dcc.style.height="400px"
+		dcc1.style.width="200px"
+		dcc1.style.height="400px"
+		dcc2.style.width="200px"
+		dcc2.style.height="400px"
+		dcc3.style.width="200px"
+		dcc3.style.height="400px"
+		dcc4.style.width="200px"
+		dcc4.style.height="400px"
+		dcc5.style.width="200px"
+		dcc5.style.height="400px"
+		dcc6.style.width="200px"
+		dcc6.style.height="400px"
+		dcc7.style.width="200px"
+		dcc7.style.height="400px"
+
+	}
+
+		wei.onclick=function(){
+			wei.style.animationPlayState="paused"
+			dc.style.animationPlayState="paused"
+			dcc.style.animationPlayState="paused"
+			dcc1.style.animationPlayState="paused"
+			dcc2.style.animationPlayState="paused"
+			dcc3.style.animationPlayState="paused"
+			dcc4.style.animationPlayState="paused"
+			dcc5.style.animationPlayState="paused"
+			dcc6.style.animationPlayState="paused"
+			dcc7.style.animationPlayState="paused"
+			boom.play();
+			boom.currentTime=0;
+			wallpaper3.style.width="0%"
+		wallpaper3.style.height="0%"
+		wei.style.width="0px"
+		wei.style.height="0px"
+		dc.style.width="0px"
+		dc.style.height="0px"
+		dcc.style.width="0px"
+		dcc.style.height="0px"
+		dcc1.style.width="0px"
+		dcc1.style.height="0px"
+		dcc2.style.width="0px"
+		dcc2.style.height="0px"
+		dcc3.style.width="0px"
+		dcc3.style.height="0px"
+		dcc4.style.width="0px"
+		dcc4.style.height="0px"
+		dcc5.style.width="0px"
+		dcc5.style.height="0px"
+		dcc6.style.width="0px"
+		dcc6.style.height="0px"
+		dcc7.style.width="0px"
+		dcc7.style.height="0px"
+		twinss.style.width="400px"
+		twinss.style.height="550px"
+		bld.style.width="105%"
+		bld.style.height="105%"
+		}
+
+		twinss.onclick=function(){
+			twinss.style.animationPlayState="paused"
+			boom.play();
+			boom.currentTime=0;
+			twinss.style.width="0px"
+			bld.style.width="0px"
+			redrum.style.width="600px"
+			redrum.style.height="200px"
+			redrumm.style.width="400px"
+			redrumm.style.height="140px"
+			redrummm.style.width="300px"
+			redrummm.style.height="100px"
+			circle.style.width="10px"
+			circle.style.height="10px"
+			wallpaper5.style.width="105%"
+			wallpaper5.style.height="105%"
+			walk.style.width="400px"
+			walk.style.height="800px"
+			ex.style.width="600px"
+			ex.style.height="150px"
+		}
+
+		ex.onclick=function(){
+		redrum.style.animationPlayState="paused"
+		redrumm.style.animationPlayState="paused"
+		redrummm.style.animationPlayState="paused"
+		jon.play();
+		jon.currentTime=0;
+		boom.play();
+		boom.currentTime=0;
+		redrum.style.width="0px"
+		redrumm.style.width="0px"
+		redrummm.style.width="0px"
+	
+		mm.style.width="105%"
+		mm.style.height="105%"
+	
+
+		var total = 0;
+	for(var ii=0;ii<50;ii++){
+	var tt = document.getElementById("circle");
+	var kk = tt.cloneNode(true);
+	kk.style.left = Math.random()*window.innerWidth +"px"
+	kk.style.top = Math.random()*window.innerHeight +"px"
+
+	var time = Math.random()*4;
+	kk.style.animationDuration = time+"s";
+	kk.style.background=makeColor();
+	kk.style.opacity = Math.random();
+	document.body.appendChild(kk);
+		
+	}
+function makeColor(){
+		var a = Math.ceil;
+		var b = Math.ceil;
+		var c = Math.ceil;
+	
+	}
+}
+
+
+	
+</script>
+</body>
+</html>
